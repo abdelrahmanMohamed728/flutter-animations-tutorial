@@ -52,7 +52,7 @@ class _ThreeDContainerState extends State<ThreeDContainer>
         child: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-                colors: [Color(0xFFbdc3c7), Color(0xFF2c3e50)],
+                colors: [lightBlue, blue],
                 begin: FractionalOffset(0.0, 0.0),
                 end: FractionalOffset(0.0, 1.0),
                 stops: [0.0, 1.0],
@@ -62,7 +62,7 @@ class _ThreeDContainerState extends State<ThreeDContainer>
             child: Column(
               children: [
                 const SizedBox(
-                  height: 100,
+                  height: 250,
                   width: double.infinity,
                 ),
                 AnimatedBuilder(
@@ -93,7 +93,8 @@ class _ThreeDContainerState extends State<ThreeDContainer>
                                     color: Colors.blue.withOpacity(0.2),
                                     spreadRadius: 5,
                                     blurRadius: 7,
-                                    offset: const Offset(0, 3), // changes position of shadow
+                                    offset: const Offset(
+                                        0, 3), // changes position of shadow
                                   ),
                                 ],
                               ),
@@ -113,7 +114,8 @@ class _ThreeDContainerState extends State<ThreeDContainer>
                                     color: Colors.blue.withOpacity(0.2),
                                     spreadRadius: 5,
                                     blurRadius: 7,
-                                    offset: const Offset(0, 3), // changes position of shadow
+                                    offset: const Offset(
+                                        0, 3), // changes position of shadow
                                   ),
                                 ],
                               ),
@@ -133,7 +135,8 @@ class _ThreeDContainerState extends State<ThreeDContainer>
                                     color: Colors.blue.withOpacity(0.2),
                                     spreadRadius: 5,
                                     blurRadius: 7,
-                                    offset: const Offset(0, 3), // changes position of shadow
+                                    offset: const Offset(
+                                        0, 3), // changes position of shadow
                                   ),
                                 ],
                               ),
@@ -150,7 +153,8 @@ class _ThreeDContainerState extends State<ThreeDContainer>
                                   color: Colors.blue.withOpacity(0.2),
                                   spreadRadius: 5,
                                   blurRadius: 7,
-                                  offset: const Offset(0, 3), // changes position of shadow
+                                  offset: const Offset(
+                                      0, 3), // changes position of shadow
                                 ),
                               ],
                             ),
@@ -169,7 +173,8 @@ class _ThreeDContainerState extends State<ThreeDContainer>
                                     color: Colors.blue.withOpacity(0.2),
                                     spreadRadius: 5,
                                     blurRadius: 7,
-                                    offset: const Offset(0, 3), // changes position of shadow
+                                    offset: const Offset(
+                                        0, 3), // changes position of shadow
                                   ),
                                 ],
                               ),
@@ -189,7 +194,8 @@ class _ThreeDContainerState extends State<ThreeDContainer>
                                     color: Colors.blue.withOpacity(0.2),
                                     spreadRadius: 5,
                                     blurRadius: 7,
-                                    offset: const Offset(0, 3), // changes position of shadow
+                                    offset: const Offset(
+                                        0, 3), // changes position of shadow
                                   ),
                                 ],
                               ),
