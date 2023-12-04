@@ -1,4 +1,4 @@
-# animation_tutorial
+# Animation Tutorial
 
 This repository contains a collection of Flutter examples showcasing different types of animations.
 
@@ -6,7 +6,7 @@ This repository contains a collection of Flutter examples showcasing different t
 
 Animations in Flutter can greatly enhance the user experience by adding visual appeal and interactivity to your applications. This repository aims to provide clear examples of various animation techniques available in Flutter.
 
-## Usage
+## Preview 
 
 ### Part 1
 
