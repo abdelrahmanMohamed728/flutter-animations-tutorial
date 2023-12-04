@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage>
       vsync: this,
       duration: const Duration(seconds: 3),
     );
-    _animation = Tween<double>(begin: 0.0, end: pi/2).animate(_controller);
+    _animation = Tween<double>(begin: 0.0, end: pi * 2).animate(_controller);
     _controller.repeat();
     super.initState();
   }
