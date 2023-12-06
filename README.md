@@ -28,7 +28,11 @@ Animations in Flutter can greatly enhance the user experience by adding visual a
 
 ![](part-4.gif)
 
-## Reference 
+### Part 5
+
+![](part-5.gif)
+
+## References 
 https://www.youtube.com/playlist?list=PL6yRaaP0WPkW3kwAerPeRqGBvJfO8O4S7
 
 
